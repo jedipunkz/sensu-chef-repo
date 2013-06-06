@@ -1,0 +1,8 @@
+{
+  "id": "proc_cron",
+  "command": "check-procs.rb -p cron -C 1",
+  "subscribers": [
+    "sensu-client"
+  ],
+  "interval": 10
+}
